@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/jtrocha4/xiles/static/css/main.073c9b0a.css",
-    "main.js": "/jtrocha4/xiles/static/js/main.9db57378.js",
-    "static/js/787.0c485f89.chunk.js": "/jtrocha4/xiles/static/js/787.0c485f89.chunk.js",
-    "static/media/logo.svg": "/jtrocha4/xiles/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/jtrocha4/xiles/index.html",
-    "main.073c9b0a.css.map": "/jtrocha4/xiles/static/css/main.073c9b0a.css.map",
-    "main.9db57378.js.map": "/jtrocha4/xiles/static/js/main.9db57378.js.map",
-    "787.0c485f89.chunk.js.map": "/jtrocha4/xiles/static/js/787.0c485f89.chunk.js.map"
+    "main.css": "/xiles/static/css/main.38be36b0.css",
+    "main.js": "/xiles/static/js/main.e3ae7aec.js",
+    "static/media/logo.svg": "/xiles/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/xiles/index.html",
+    "main.38be36b0.css.map": "/xiles/static/css/main.38be36b0.css.map",
+    "main.e3ae7aec.js.map": "/xiles/static/js/main.e3ae7aec.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9db57378.js"
+    "static/css/main.38be36b0.css",
+    "static/js/main.e3ae7aec.js"
   ]
 }
