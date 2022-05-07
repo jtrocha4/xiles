@@ -1,0 +1,31 @@
+#seccionHombreimg{
+    width: 100%;
+}
+
+#seccionMujerimg{
+    width: 100%;
+}
+
+#col1 {
+    position: relative;
+}
+
+#hombrebtn{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+
+#col2 {
+    position: relative;
+}
+
+#mujerbtn{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+
+
+
+

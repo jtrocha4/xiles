@@ -27,7 +27,6 @@ function MenuNavegacion() {
                     </div>
                 </div>
             </nav>
-
         </div>
     )
 }
