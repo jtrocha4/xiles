@@ -7,14 +7,14 @@ function SeccionPrincipal() {
     return (
         <div className='container-fluid mt-2'>
             <div className='row'>
-                <div className='col' id='col1'>
+                <div className='col-sm-6' id='col1' >
                     <img src={seccionHombre} alt="" id='seccionHombreimg' />
                     <div id='hombrebtn'>
                         <button type='button' className='btn btn-outline-light'>Hombre</button>
                     </div>
                 </div>
 
-                <div className='col' id='col2'>
+                <div className='col-sm-6' id='col2'>
                     <img src={seccionMujer} alt="Mujer" id='seccionMujerimg' />
                     <div id='mujerbtn'>
                         <button type='button' className='btn btn-outline-light'>Mujer</button>
