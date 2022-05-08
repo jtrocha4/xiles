@@ -10,14 +10,14 @@ function SeccionPrincipal() {
         <div className='container-fluid mt-2'>
             <div className='row'>
                 <div className='col-sm-6' id='col1' >
-                    <img src={seccionHombre} alt="" id='seccionHombreimg' />
+                    <img className='img-fluid' src={seccionHombre} alt="" id='seccionHombreimg' />
                     <div id='hombrebtn'>
                         <button type='button' className='btn btn-outline-light'>Hombre</button>
                     </div>
                 </div>
 
                 <div className='col-sm-6' id='col2'>
-                    <img src={seccionMujer} alt="Mujer" id='seccionMujerimg' />
+                    <img className='img-fluid' src={seccionMujer} alt="Mujer" id='seccionMujerimg' />
                     <div id='mujerbtn'>
                         <button type='button' className='btn btn-outline-light'>Mujer</button>
                     </div>
@@ -25,16 +25,16 @@ function SeccionPrincipal() {
             </div>
 
             <div className='row mt-2'>
-                <div className='col-2' id='colSeasontxt'>
+                <div className='col-sm-4' id='colSeasontxt'>
                     <h1>Nueva Coleccion</h1>
                 </div>
 
-                <div className='col' id='colSeasonimg'>
-                    <img src={colSeasonimg} alt="" />
+                <div className='col-sm-4' id='colSeasonimg'>
+                    <img  className='img-fluid' src={colSeasonimg} alt="" />
                 </div>
 
-                <div className='col' id='colSeasonimg2'>
-                    <img src={colSeasonimg2} alt="" />
+                <div className='col-sm-4' id='colSeasonimg2'>
+                    <img className='img-fluid' src={colSeasonimg2} alt="" />
                 </div>
             </div>
 

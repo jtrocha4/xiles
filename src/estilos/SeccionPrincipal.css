@@ -1,10 +1,3 @@
-#seccionHombreimg{
-    width: 100%;
-}
-
-#seccionMujerimg{
-    width: 100%;
-}
 
 #col1 {
     position: relative;
@@ -27,23 +20,26 @@
 }
 
 #colSeasontxt{
-    background-color: aqua;
+    background-color: #D9D8D7;
     text-align: center;
+    /* text-align: center;
     display: block;
-    margin: auto;
+    margin: auto; */
 }
 
-#colSeasonimg{
-    /* background-color: bisque; */
+/* #colSeasonimg{
+    background-color: bisque;
     height: 640px;
     width: 640px;
-}
+    width: 50%;
+} */
 
-#colSeasonimg2{
-    /* background-color: brown; */
+/* #colSeasonimg2{
+    background-color: brown;
     height: 640px;
     width: 640px;
-}
+    width: 50%;
+} */
 
 
 
