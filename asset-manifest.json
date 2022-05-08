@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/xiles/static/css/main.868e56a3.css",
-    "main.js": "/xiles/static/js/main.6c83bec9.js",
+    "main.css": "/xiles/static/css/main.a17d8674.css",
+    "main.js": "/xiles/static/js/main.c117c93f.js",
+    "static/media/colSeasonimg.gif": "/xiles/static/media/colSeasonimg.fb012933e1cdcd14aa2d.gif",
+    "static/media/colSeasonimg2.gif": "/xiles/static/media/colSeasonimg2.7378aaf990823b2d5c57.gif",
     "static/media/seccionMujer.jpg": "/xiles/static/media/seccionMujer.229d3c750f2eeaaebd96.jpg",
     "static/media/seccionHombre.jpg": "/xiles/static/media/seccionHombre.515ddb1cd7b0067a8ca7.jpg",
     "static/media/logo.svg": "/xiles/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/xiles/index.html",
-    "main.868e56a3.css.map": "/xiles/static/css/main.868e56a3.css.map",
-    "main.6c83bec9.js.map": "/xiles/static/js/main.6c83bec9.js.map"
+    "main.a17d8674.css.map": "/xiles/static/css/main.a17d8674.css.map",
+    "main.c117c93f.js.map": "/xiles/static/js/main.c117c93f.js.map"
   },
   "entrypoints": [
-    "static/css/main.868e56a3.css",
-    "static/js/main.6c83bec9.js"
+    "static/css/main.a17d8674.css",
+    "static/js/main.c117c93f.js"
   ]
 }
