@@ -20,7 +20,7 @@ function MenuNavegacion() {
                             <button className='btn btn-outline-light me-2'><i className="bi bi-search"></i></button>
 
                             {/* Boton de bolsa */}
-                            <button className='btn btn-outline-light me-2'><i className="bi bi-bag"></i></button>
+                            <button className='btn btn-outline-light me-2 '><i className="bi bi-bag"></i></button>
                             {/* Boton de Cuenta */}
                             <button className='btn btn-outline-light'><i className="bi bi-person"></i></button>
                         </form>

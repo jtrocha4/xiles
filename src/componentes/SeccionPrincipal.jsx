@@ -2,6 +2,8 @@ import React from 'react'
 import '../estilos/SeccionPrincipal.css'
 import seccionHombre from '../imagenes/seccionHombre.jpg'
 import seccionMujer from '../imagenes/seccionMujer.jpg'
+import colSeasonimg from '../imagenes/colSeasonimg.gif'
+import colSeasonimg2 from '../imagenes/colSeasonimg2.gif'
 
 function SeccionPrincipal() {
     return (
@@ -21,6 +23,21 @@ function SeccionPrincipal() {
                     </div>
                 </div>
             </div>
+
+            <div className='row mt-2'>
+                <div className='col-2' id='colSeasontxt'>
+                    <h1>Nueva Coleccion</h1>
+                </div>
+
+                <div className='col' id='colSeasonimg'>
+                    <img src={colSeasonimg} alt="" />
+                </div>
+
+                <div className='col' id='colSeasonimg2'>
+                    <img src={colSeasonimg2} alt="" />
+                </div>
+            </div>
+
         </div>
     )
 }

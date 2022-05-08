@@ -26,6 +26,25 @@
     top: 50%;
 }
 
+#colSeasontxt{
+    background-color: aqua;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#colSeasonimg{
+    /* background-color: bisque; */
+    height: 640px;
+    width: 640px;
+}
+
+#colSeasonimg2{
+    /* background-color: brown; */
+    height: 640px;
+    width: 640px;
+}
+
 
 
 

@@ -4,12 +4,14 @@ import MenuNavegacion from './componentes/MenuNavegacion';
 import * as bootstrap from 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SeccionPrincipal from './componentes/SeccionPrincipal';
+import Footer from './componentes/Footer';
 
 function App() {
   return (
     <div className="App">
       <MenuNavegacion></MenuNavegacion>
       <SeccionPrincipal></SeccionPrincipal>
+      <Footer></Footer>
     </div>
   );
 }
