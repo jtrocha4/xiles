@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 import SeccionTiendas from './componentes/SeccionTiendas';
 import Sidebar from './componentes/Sidebar';
+import SeccionHombre from './componentes/SeccionHombre';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           <Route path='/tiendas' exact element={<SeccionTiendas></SeccionTiendas>} >
           </Route>
 
-          <Route path='/hombre' exact element={<h1>Seccion Hombre</h1>}></Route>
+          <Route path='/hombre' exact element={<SeccionHombre></SeccionHombre>}></Route>
 
           <Route path='/mujer' exact element={<h1>Seccion Mujer</h1>}></Route>
           
