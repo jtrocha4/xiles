@@ -2,7 +2,7 @@ import React from 'react'
 import hombreimg from '../imagenes/seccionHombre.jpg'
 
 
-function Producto({img,categoria, titulo, precio}) {
+function Producto({ img, categoria, titulo, precio }) {
     return (
         <div className='container-fluid'>
             <div className="productoImg">
