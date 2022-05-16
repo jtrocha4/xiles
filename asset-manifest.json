@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xiles/static/css/main.4bd2f3c4.css",
-    "main.js": "/xiles/static/js/main.6be2c342.js",
+    "main.js": "/xiles/static/js/main.72016566.js",
     "static/media/colSeasonimg.gif": "/xiles/static/media/colSeasonimg.fb012933e1cdcd14aa2d.gif",
     "static/media/colSeasonimg2.gif": "/xiles/static/media/colSeasonimg2.7378aaf990823b2d5c57.gif",
     "static/media/seccionMujer.jpg": "/xiles/static/media/seccionMujer.229d3c750f2eeaaebd96.jpg",
@@ -11,10 +11,10 @@
     "static/media/logo.svg": "/xiles/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/xiles/index.html",
     "main.4bd2f3c4.css.map": "/xiles/static/css/main.4bd2f3c4.css.map",
-    "main.6be2c342.js.map": "/xiles/static/js/main.6be2c342.js.map"
+    "main.72016566.js.map": "/xiles/static/js/main.72016566.js.map"
   },
   "entrypoints": [
     "static/css/main.4bd2f3c4.css",
-    "static/js/main.6be2c342.js"
+    "static/js/main.72016566.js"
   ]
 }
