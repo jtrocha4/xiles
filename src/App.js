@@ -16,15 +16,11 @@ import {
 import SeccionTiendas from './componentes/SeccionTiendas';
 import Sidebar from './componentes/Sidebar';
 import SeccionHombre from './componentes/SeccionHombre';
+import SeccionMujer from './componentes/SeccionMujer';
 
 function App() {
   return (
     <div className="App">
-      {/* <MenuNavegacion></MenuNavegacion>
-      <SeccionPrincipal></SeccionPrincipal>
-      <Footer></Footer> */}
-
-
       <Router>
         <MenuNavegacion></MenuNavegacion>
         <Routes>
@@ -37,7 +33,7 @@ function App() {
 
           <Route path='/hombre' exact element={<SeccionHombre></SeccionHombre>}></Route>
 
-          <Route path='/mujer' exact element={<h1>Seccion Mujer</h1>}></Route>
+          <Route path='/mujer' exact element={<SeccionMujer></SeccionMujer>}></Route>
           
         </Routes>
         <Footer></Footer>

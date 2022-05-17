@@ -1,9 +1,7 @@
 import React from 'react'
 import { nanoid } from 'nanoid'
-import Producto from './Producto'
-import '../estilos/SeccionHombre.css'
 
-function SeccionHombre() {
+function SeccionMujer() {
     //Hooks.
     const [img, setImg] = React.useState('')
     const [categoria, setCategoria] = React.useState('')
@@ -116,7 +114,7 @@ function SeccionHombre() {
 
     return (
         <div className='container'>
-            <h1>Hombre</h1>
+            <h1>Mujer</h1>
             <div className='row'>
                 {
                     lista.map(
@@ -193,4 +191,4 @@ function SeccionHombre() {
     )
 }
 
-export default SeccionHombre
+export default SeccionMujer
