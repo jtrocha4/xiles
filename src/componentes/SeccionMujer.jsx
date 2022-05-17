@@ -160,20 +160,20 @@ function SeccionMujer() {
                                     <form onSubmit={modoEdicion ? editarProducto : guardarProducto}>
 
                                         <div className='mb-3'>
-                                            <label for='recipient-name' className='col-form-label'>img:</label>
+                                            <label htmlFor='recipient-name' className='col-form-label'>img:</label>
                                             <input type='url' className='form-control' name='img' id='recipient-name' onChange={(e) => { setImg(e.target.value) }} value={img} />
                                         </div>
 
                                         <div className='mb-3'>
-                                            <label for='recipient-name' className='col-form-label'>Categoria:</label>
+                                            <label htmlFor='recipient-name' className='col-form-label'>Categoria:</label>
                                             <input type='text' className='form-control' name='categoria' id='recipient-name' onChange={(e) => { setCategoria(e.target.value) }} value={categoria} />
                                         </div>
                                         <div className='mb-3'>
-                                            <label for='message-text' className='col-form-label'>Titulo:</label>
+                                            <label htmlFor='message-text' className='col-form-label'>Titulo:</label>
                                             <input className='form-control' name='titulo' id='message-text' onChange={(e) => { setTitulo(e.target.value) }} value={titulo} />
                                         </div>
                                         <div className='mb-3'>
-                                            <label for='message-text' className='col-form-label'>Precio:</label>
+                                            <label htmlFor='message-text' className='col-form-label'>Precio:</label>
                                             <input type='number' className='form-control' name='precio' id='message-text' onChange={(e) => { setPrecio(e.target.value) }} value={precio} />
                                         </div>
                                         <div className='modal-footer'>

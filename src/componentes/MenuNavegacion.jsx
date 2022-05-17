@@ -15,8 +15,8 @@ function MenuNavegacion() {
             <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
                 <div className='container-fluid'>
                     <Link className='navbar-brand mb-0 h1' to='/xiles'>Xiles´s</Link> 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#firstNavbar">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#firstNavbar">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className='collapse navbar-collapse' id='firstNavbar'>
                         <ul className='navbar-nav me-auto mb-2 mb-lg-0'>

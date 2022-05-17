@@ -14,7 +14,6 @@ import {
   Routes
 } from "react-router-dom";
 import SeccionTiendas from './componentes/SeccionTiendas';
-import Sidebar from './componentes/Sidebar';
 import SeccionHombre from './componentes/SeccionHombre';
 import SeccionMujer from './componentes/SeccionMujer';
 
