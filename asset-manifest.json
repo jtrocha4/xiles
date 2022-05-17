@@ -1,20 +1,18 @@
 {
   "files": {
     "main.css": "/xiles/static/css/main.4bd2f3c4.css",
-    "main.js": "/xiles/static/js/main.72016566.js",
+    "main.js": "/xiles/static/js/main.db099df5.js",
     "static/media/colSeasonimg.gif": "/xiles/static/media/colSeasonimg.fb012933e1cdcd14aa2d.gif",
     "static/media/colSeasonimg2.gif": "/xiles/static/media/colSeasonimg2.7378aaf990823b2d5c57.gif",
     "static/media/seccionMujer.jpg": "/xiles/static/media/seccionMujer.229d3c750f2eeaaebd96.jpg",
-    "static/media/camiseta negra-Hombre.jpg": "/xiles/static/media/camiseta negra-Hombre.d72c1777dfea5060c7cf.jpg",
     "static/media/seccionHombre.jpg": "/xiles/static/media/seccionHombre.515ddb1cd7b0067a8ca7.jpg",
-    "static/media/jeans negro-Hombre.jpg": "/xiles/static/media/jeans negro-Hombre.ae56c684d7364b21d212.jpg",
     "static/media/logo.svg": "/xiles/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/xiles/index.html",
     "main.4bd2f3c4.css.map": "/xiles/static/css/main.4bd2f3c4.css.map",
-    "main.72016566.js.map": "/xiles/static/js/main.72016566.js.map"
+    "main.db099df5.js.map": "/xiles/static/js/main.db099df5.js.map"
   },
   "entrypoints": [
     "static/css/main.4bd2f3c4.css",
-    "static/js/main.72016566.js"
+    "static/js/main.db099df5.js"
   ]
 }
