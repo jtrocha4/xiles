@@ -3,15 +3,15 @@ import 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB3eNHfcvkmcTsqjXCcfhHvs79ePi9BiGk",
-    authDomain: "xiles-5b78e.firebaseapp.com",
-    projectId: "xiles-5b78e",
-    storageBucket: "xiles-5b78e.appspot.com",
-    messagingSenderId: "180252660731",
-    appId: "1:180252660731:web:33abfb6841b590364ff15e"
+    apiKey: "AIzaSyBZy4-TAPIK1UH0uBSC8gaM0r0ZzXzF5_s",
+    authDomain: "xiles-shop.firebaseapp.com",
+    projectId: "xiles-shop",
+    storageBucket: "xiles-shop.appspot.com",
+    messagingSenderId: "984534138660",
+    appId: "1:984534138660:web:bf6fc017093b5bb891fdb1"
 };
 
 // Initialize Firebase
 
 firebase.initializeApp(firebaseConfig);
-export {firebase}
+export { firebase }
