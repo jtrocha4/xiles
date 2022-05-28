@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import MenuNavegacion from './componentes/MenuNavegacion';
-import * as bootstrap from 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SeccionPrincipal from './componentes/SeccionPrincipal';
 import Footer from './componentes/Footer';
@@ -16,29 +14,60 @@ import {
 import SeccionTiendas from './componentes/SeccionTiendas';
 import SeccionHombre from './componentes/SeccionHombre';
 import SeccionMujer from './componentes/SeccionMujer';
+import { auth, db } from './firebase'
+import Login from './componentes/Login';
 
 function App() {
+
+  const [user, setUser] = React.useState(null)
+
+  auth.onAuthStateChanged((usuario) => {
+    if (usuario) {
+      setUser(usuario)
+    } else {
+      setUser(null)
+    }
+  })
+
   return (
-    <div className="App">
-      <Router>
-        <MenuNavegacion></MenuNavegacion>
-        <Routes>
-          
-          <Route path='/xiles' exact element={<SeccionPrincipal/>}>
-          </Route>
+    <>
+      {
+        user ? 
+          <Router>
+            <MenuNavegacion></MenuNavegacion>
+            <Routes>
 
-          <Route path='/tiendas' exact element={<SeccionTiendas></SeccionTiendas>} >
-          </Route>
+              <Route path='/xiles' exact element={<SeccionPrincipal />}>
+              </Route>
+              <Route path='/tiendas' exact element={<SeccionTiendas></SeccionTiendas>} >
+              </Route>
+              <Route path='/hombre' exact element={<SeccionHombre></SeccionHombre>}>
+              </Route>
+              <Route path='/mujer' exact element={<SeccionMujer></SeccionMujer>}>
+              </Route>
 
-          <Route path='/hombre' exact element={<SeccionHombre></SeccionHombre>}></Route>
+            </Routes>
+            <Footer></Footer>
+          </Router> : 
 
-          <Route path='/mujer' exact element={<SeccionMujer></SeccionMujer>}></Route>
-          
-        </Routes>
-        <Footer></Footer>
-      </Router>
+          <Router>
+            <MenuNavegacion></MenuNavegacion>
+            <Routes>
 
-    </div>
+              <Route path='/xiles' exact element={<SeccionPrincipal />}>
+              </Route>
+              <Route path='/tiendas' exact element={<SeccionTiendas></SeccionTiendas>} >
+              </Route>
+              <Route path='/hombre' exact element={<SeccionHombre></SeccionHombre>}>
+              </Route>
+              <Route path='/mujer' exact element={<SeccionMujer></SeccionMujer>}>
+              </Route>
+
+            </Routes>
+            <Footer></Footer>
+          </Router>
+      }
+    </>
   );
 }
 

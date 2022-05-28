@@ -1,7 +1,6 @@
 import React from 'react'
 import { nanoid } from 'nanoid'
-import { firebase } from '../firebase'
-import Producto from './Producto'
+import { db,auth } from '../firebase'
 import '../estilos/SeccionHombre.css'
 import swal from 'sweetalert'
 
@@ -120,7 +119,6 @@ function SeccionHombre() {
     React.useEffect(() => {
         const obtenerDatos = async () => {
             try {
-                const db = firebase.firestore();
                 const data = await db.collection('productos').get()
                 const arrayData = data.docs.map(doc => ({
                     id: doc.id, ...doc.data()
@@ -182,7 +180,6 @@ function SeccionHombre() {
         }
 
         try {
-            const db = firebase.firestore()
             const nuevoProducto = {
                 img, categoria, titulo, precio
             }
@@ -213,7 +210,7 @@ function SeccionHombre() {
     //Eliminar datos de fireStore.
     const eliminarProducto = async (id) => {
         try {
-            const db = firebase.firestore()
+
             await db.collection('productos').doc(id).delete()
             const listaFiltrada = lista.filter((elemento) => elemento.id !== id)
             //Lista actualizada.
@@ -256,7 +253,6 @@ function SeccionHombre() {
         }
 
         try {
-            const db = firebase.firestore()
             await db.collection('productos').doc(id).update({
                 img, categoria, titulo, precio
             })
@@ -291,7 +287,6 @@ function SeccionHombre() {
                 {
                     lista.map(
                         (elemento) => (
-                            // <Producto key={elemento.id} img={elemento.img} categoria={elemento.categoria} titulo={elemento.titulo} precio={elemento.precio}></Producto>
                             <div className="col-sm-4 col-producto" key={elemento.id}>
                                 <div className='container-fluid'>
                                     <button className='btn btn-danger mx-1 my-1 float-end' onClick={() => eliminarProducto(elemento.id)}>
@@ -333,20 +328,20 @@ function SeccionHombre() {
 
                                         <div className='mb-3'>
                                             <label htmlFor='recipient-name' className='col-form-label'>img:</label>
-                                            <input type='url' className='form-control' name='img' id='recipient-name' onChange={(e) => { setImg(e.target.value) }} value={img} />
+                                            <input type='url' className='form-control' name='img'  onChange={(e) => { setImg(e.target.value) }} value={img} />
                                         </div>
 
                                         <div className='mb-3'>
                                             <label htmlFor='recipient-name' className='col-form-label'>Categoria:</label>
-                                            <input type='text' className='form-control' name='categoria' id='recipient-name' onChange={(e) => { setCategoria(e.target.value) }} value={categoria} />
+                                            <input type='text' className='form-control' name='categoria'  onChange={(e) => { setCategoria(e.target.value) }} value={categoria} />
                                         </div>
                                         <div className='mb-3'>
                                             <label htmlFor='message-text' className='col-form-label'>Titulo:</label>
-                                            <input className='form-control' name='titulo' id='message-text' onChange={(e) => { setTitulo(e.target.value) }} value={titulo} />
+                                            <input className='form-control' name='titulo' onChange={(e) => { setTitulo(e.target.value) }} value={titulo} />
                                         </div>
                                         <div className='mb-3'>
                                             <label htmlFor='message-text' className='col-form-label'>Precio:</label>
-                                            <input type='number' className='form-control' name='precio' id='message-text' onChange={(e) => { setPrecio(e.target.value) }} value={precio} />
+                                            <input type='number' className='form-control' name='precio' onChange={(e) => { setPrecio(e.target.value) }} value={precio} />
                                         </div>
                                         <div className='modal-footer'>
                                             <button type='button' className='btn btn-secondary' data-bs-dismiss='modal' onClick={() => cancelarEdicion()}>Cancelar</button>
